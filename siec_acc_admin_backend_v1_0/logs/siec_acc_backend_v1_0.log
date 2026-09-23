@@ -1,0 +1,702 @@
+2026-09-23T11:25:48.322+05:30  INFO 7660 --- [siec-accounting] [restartedMain] com.siec_acc.SiecAccountingApplication   : Starting SiecAccountingApplication using Java 21.0.12.1 with PID 7660 (C:\Users\admin\Desktop\SIEC\siec_acc_admin_backend_v1_0\target\classes started by admin in C:\Users\admin\Desktop\SIEC\siec_acc_admin_backend_v1_0)
+2026-09-23T11:25:48.340+05:30  INFO 7660 --- [siec-accounting] [restartedMain] com.siec_acc.SiecAccountingApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-09-23T11:25:48.554+05:30  INFO 7660 --- [siec-accounting] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\admin\.m2\repository\io\github\cdimascio\java-dotenv\5.2.2\java-dotenv-5.2.2.jar referenced one or more files that do not exist: file:/C:/Users/admin/.m2/repository/io/github/cdimascio/java-dotenv/5.2.2/kotlin-stdlib-1.4.0.jar,file:/C:/Users/admin/.m2/repository/io/github/cdimascio/java-dotenv/5.2.2/kotlin-stdlib-common-1.4.0.jar,file:/C:/Users/admin/.m2/repository/io/github/cdimascio/java-dotenv/5.2.2/annotations-13.0.jar
+2026-09-23T11:25:48.561+05:30  INFO 7660 --- [siec-accounting] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-09-23T11:25:48.562+05:30  INFO 7660 --- [siec-accounting] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-09-23T11:25:50.957+05:30  INFO 7660 --- [siec-accounting] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-09-23T11:25:50.961+05:30  INFO 7660 --- [siec-accounting] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-09-23T11:25:51.081+05:30  INFO 7660 --- [siec-accounting] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.siec_acc.repository.AdminRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2026-09-23T11:25:51.089+05:30  INFO 7660 --- [siec-accounting] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.siec_acc.repository.InventoryHistoryRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2026-09-23T11:25:51.095+05:30  INFO 7660 --- [siec-accounting] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.siec_acc.repository.InventoryRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2026-09-23T11:25:51.099+05:30  INFO 7660 --- [siec-accounting] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.siec_acc.repository.OrganizationRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2026-09-23T11:25:51.104+05:30  INFO 7660 --- [siec-accounting] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.siec_acc.repository.ProductRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2026-09-23T11:25:51.108+05:30  INFO 7660 --- [siec-accounting] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.siec_acc.repository.VariantRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2026-09-23T11:25:51.111+05:30  INFO 7660 --- [siec-accounting] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 128 ms. Found 0 JDBC repository interfaces.
+2026-09-23T11:25:51.147+05:30  INFO 7660 --- [siec-accounting] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-09-23T11:25:51.150+05:30  INFO 7660 --- [siec-accounting] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-23T11:25:51.303+05:30  INFO 7660 --- [siec-accounting] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 141 ms. Found 6 JPA repository interfaces.
+2026-09-23T11:25:53.086+05:30  INFO 7660 --- [siec-accounting] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9093 (http)
+2026-09-23T11:25:53.128+05:30  INFO 7660 --- [siec-accounting] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-23T11:25:53.130+05:30  INFO 7660 --- [siec-accounting] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-23T11:25:53.243+05:30  INFO 7660 --- [siec-accounting] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 4679 ms
+2026-09-23T11:25:53.666+05:30  INFO 7660 --- [siec-accounting] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-09-23T11:25:53.844+05:30  INFO 7660 --- [siec-accounting] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.5.Final
+2026-09-23T11:25:55.002+05:30  INFO 7660 --- [siec-accounting] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-23T11:25:55.091+05:30  INFO 7660 --- [siec-accounting] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-09-23T11:25:55.552+05:30  INFO 7660 --- [siec-accounting] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3c4d5979
+2026-09-23T11:25:55.559+05:30  INFO 7660 --- [siec-accounting] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-09-23T11:25:55.831+05:30  INFO 7660 --- [siec-accounting] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/siec_acc_db?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true&allowPublicKeyRetrieval=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.39
+	Default catalog/schema: siec_acc_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-23T11:25:59.200+05:30  INFO 7660 --- [siec-accounting] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-23T11:25:59.922+05:30  INFO 7660 --- [siec-accounting] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-23T11:26:01.623+05:30  INFO 7660 --- [siec-accounting] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-09-23T11:26:03.174+05:30  INFO 7660 --- [siec-accounting] [restartedMain] com.siec_acc.security.SecurityConfig     : SecurityConfig bean initialized
+2026-09-23T11:26:03.212+05:30  INFO 7660 --- [siec-accounting] [restartedMain] com.siec_acc.security.AuthController     : AuthController initialized
+2026-09-23T11:26:03.343+05:30  WARN 7660 --- [siec-accounting] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-09-23T11:26:03.593+05:30  INFO 7660 --- [siec-accounting] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-09-23T11:26:03.594+05:30  WARN 7660 --- [siec-accounting] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-09-23T11:26:03.843+05:30  INFO 7660 --- [siec-accounting] [restartedMain] com.siec_acc.security.SecurityConfig     : SecurityFilterChain configured successfully (OAuth2 removed)
+2026-09-23T11:26:04.383+05:30 DEBUG 7660 --- [siec-accounting] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 33 mappings in 'requestMappingHandlerMapping'
+2026-09-23T11:26:04.541+05:30 DEBUG 7660 --- [siec-accounting] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-09-23T11:26:04.642+05:30 DEBUG 7660 --- [siec-accounting] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-09-23T11:26:04.751+05:30 DEBUG 7660 --- [siec-accounting] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-09-23T11:26:05.346+05:30  INFO 7660 --- [siec-accounting] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9093 (http) with context path '/'
+2026-09-23T11:26:05.356+05:30  INFO 7660 --- [siec-accounting] [restartedMain] com.siec_acc.SiecAccountingApplication   : Started SiecAccountingApplication in 18.266 seconds (process running for 20.669)
+2026-09-23T11:28:42.960+05:30  INFO 7660 --- [siec-accounting] [http-nio-9093-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-23T11:28:42.961+05:30  INFO 7660 --- [siec-accounting] [http-nio-9093-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-09-23T11:28:42.961+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2026-09-23T11:28:42.961+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2026-09-23T11:28:42.963+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@46579f49
+2026-09-23T11:28:42.964+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@10859420
+2026-09-23T11:28:42.965+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-09-23T11:28:42.965+05:30  INFO 7660 --- [siec-accounting] [http-nio-9093-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2026-09-23T11:28:43.062+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/api/organization", parameters={}
+2026-09-23T11:28:43.095+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.siec_acc.controller.OrganizationController#createOrganization(OrganizationRequestDTO)
+2026-09-23T11:28:43.325+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.siec_acc.dto.request.OrganizationRequestDTO@129bd598]
+2026-09-23T11:28:43.335+05:30  INFO 7660 --- [siec-accounting] [http-nio-9093-exec-2] c.s.controller.OrganizationController    : POST /api/organization
+2026-09-23T11:28:43.351+05:30  INFO 7660 --- [siec-accounting] [http-nio-9093-exec-2] c.s.s.s.OrganizationServiceImpl          : Creating organization
+2026-09-23T11:28:43.717+05:30  INFO 7660 --- [siec-accounting] [http-nio-9093-exec-2] c.s.s.s.OrganizationServiceImpl          : Organization saved: ORG-9FD7B9FF
+2026-09-23T11:28:43.882+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json, application/*+json]
+2026-09-23T11:28:43.883+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.siec_acc.dto.response.OrganizationResponseDTO@c9158d4]
+2026-09-23T11:28:43.944+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 201 CREATED
+2026-09-23T11:28:43.985+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/api/organization/ORG-9FD7B9FF/logo?t=1790143123948", parameters={masked}
+2026-09-23T11:28:43.991+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.siec_acc.controller.OrganizationController#getOrganizationLogo(String)
+2026-09-23T11:28:44.006+05:30  INFO 7660 --- [siec-accounting] [http-nio-9093-exec-3] c.s.controller.OrganizationController    : GET /api/organization/ORG-9FD7B9FF/logo
+2026-09-23T11:28:44.012+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Found 'Content-Type:image/png' in response
+2026-09-23T11:28:44.023+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{89504e470d0a1a0a0000000d49484452000001b0000000a60806000000bbb6da1800006a3449444154789ced9d77801c75d (truncated)...]
+2026-09-23T11:28:44.026+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-09-23T11:28:57.151+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/api/organization/ORG-9FD7B9FF/logo", parameters={}
+2026-09-23T11:28:57.152+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.siec_acc.controller.OrganizationController#getOrganizationLogo(String)
+2026-09-23T11:28:57.153+05:30  INFO 7660 --- [siec-accounting] [http-nio-9093-exec-4] c.s.controller.OrganizationController    : GET /api/organization/ORG-9FD7B9FF/logo
+2026-09-23T11:28:57.158+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Found 'Content-Type:image/png' in response
+2026-09-23T11:28:57.169+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{89504e470d0a1a0a0000000d49484452000001b0000000a60806000000bbb6da1800006a3449444154789ced9d77801c75d (truncated)...]
+2026-09-23T11:28:57.182+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-09-23T11:28:57.295+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2026-09-23T11:28:57.308+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2026-09-23T11:28:57.313+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler com.siec_acc.exceptions.GlobalExceptionHandler#handleGeneric(Exception)
+2026-09-23T11:28:57.314+05:30 ERROR 7660 --- [siec-accounting] [http-nio-9093-exec-5] c.s.exceptions.GlobalExceptionHandler    : Unexpected error occurred
+
+org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico for request '/favicon.ico'.
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:527) ~[spring-webmvc-7.0.9.jar:7.0.9]
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:50) ~[spring-webmvc-7.0.9.jar:7.0.9]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-7.0.9.jar:7.0.9]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866) ~[spring-webmvc-7.0.9.jar:7.0.9]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000) ~[spring-webmvc-7.0.9.jar:7.0.9]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:892) ~[spring-webmvc-7.0.9.jar:7.0.9]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:622) ~[tomcat-embed-core-11.0.24.jar:6.1]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874) ~[spring-webmvc-7.0.9.jar:7.0.9]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710) ~[tomcat-embed-core-11.0.24.jar:6.1]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:132) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:59) ~[tomcat-embed-websocket-11.0.24.jar:11.0.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$2(FilterChainProxy.java:235) ~[spring-security-web-7.1.1.jar:7.1.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:376) ~[spring-security-web-7.1.1.jar:7.1.1]
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:101) ~[spring-security-web-7.1.1.jar:7.1.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.1.1.jar:7.1.1]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126) ~[spring-security-web-7.1.1.jar:7.1.1]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120) ~[spring-security-web-7.1.1.jar:7.1.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.1.1.jar:7.1.1]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:132) ~[spring-security-web-7.1.1.jar:7.1.1]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:86) ~[spring-security-web-7.1.1.jar:7.1.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.1.1.jar:7.1.1]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100) ~[spring-security-web-7.1.1.jar:7.1.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.1.1.jar:7.1.1]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:181) ~[spring-security-web-7.1.1.jar:7.1.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.1.1.jar:7.1.1]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-7.1.1.jar:7.1.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.1.1.jar:7.1.1]
+	at com.siec_acc.security.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:86) ~[classes/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.1.1.jar:7.1.1]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:110) ~[spring-security-web-7.1.1.jar:7.1.1]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:96) ~[spring-security-web-7.1.1.jar:7.1.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.1.1.jar:7.1.1]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.1.1.jar:7.1.1]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-7.1.1.jar:7.1.1]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-7.1.1.jar:7.1.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.1.1.jar:7.1.1]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-7.1.1.jar:7.1.1]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-7.1.1.jar:7.1.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.1.1.jar:7.1.1]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-7.1.1.jar:7.1.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.1.1.jar:7.1.1]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-7.1.1.jar:7.1.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.1.1.jar:7.1.1]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:237) ~[spring-security-web-7.1.1.jar:7.1.1]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:195) ~[spring-security-web-7.1.1.jar:7.1.1]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.springframework.web.filter.ServletRequestPathFilter.doFilter(ServletRequestPathFilter.java:52) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebSecurityConfiguration.java:317) ~[spring-security-config-7.1.1.jar:7.1.1]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:355) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:272) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:535) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:86) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:71) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:347) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:406) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:71) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1307) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:2036) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:74) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:949) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:483) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:74) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2026-09-23T11:28:57.337+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [application/json, application/*+json]
+2026-09-23T11:28:57.341+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.siec_acc.exceptions.ApiResponse@7fc461ad]
+2026-09-23T11:28:57.351+05:30  WARN 7660 --- [siec-accounting] [http-nio-9093-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico for request '/favicon.ico'.]
+2026-09-23T11:28:57.352+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 500 INTERNAL_SERVER_ERROR
+2026-09-23T11:29:06.217+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-7] o.s.web.servlet.DispatcherServlet        : DELETE "/api/organization/ORG-9FD7B9FF", parameters={}
+2026-09-23T11:29:06.218+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.siec_acc.controller.OrganizationController#deleteOrganization(String)
+2026-09-23T11:29:06.219+05:30  INFO 7660 --- [siec-accounting] [http-nio-9093-exec-7] c.s.controller.OrganizationController    : DELETE /api/organization/ORG-9FD7B9FF
+2026-09-23T11:29:06.220+05:30  INFO 7660 --- [siec-accounting] [http-nio-9093-exec-7] c.s.s.s.OrganizationServiceImpl          : Deleting organization: ORG-9FD7B9FF
+2026-09-23T11:29:06.847+05:30  INFO 7660 --- [siec-accounting] [http-nio-9093-exec-7] c.s.s.s.OrganizationServiceImpl          : Organization deleted: ORG-9FD7B9FF
+2026-09-23T11:29:06.888+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+2026-09-23T11:29:06.890+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Organization deleted successfully"]
+2026-09-23T11:29:06.892+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-09-23T11:31:43.718+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-10] o.s.web.servlet.DispatcherServlet        : POST "/api/organization", parameters={}
+2026-09-23T11:31:43.718+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.siec_acc.controller.OrganizationController#createOrganization(OrganizationRequestDTO)
+2026-09-23T11:31:43.726+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.siec_acc.dto.request.OrganizationRequestDTO@14e24ed8]
+2026-09-23T11:31:43.726+05:30  INFO 7660 --- [siec-accounting] [http-nio-9093-exec-10] c.s.controller.OrganizationController    : POST /api/organization
+2026-09-23T11:31:43.727+05:30  INFO 7660 --- [siec-accounting] [http-nio-9093-exec-10] c.s.s.s.OrganizationServiceImpl          : Creating organization
+2026-09-23T11:31:43.795+05:30  INFO 7660 --- [siec-accounting] [http-nio-9093-exec-10] c.s.s.s.OrganizationServiceImpl          : Organization saved: ORG-32C2E826
+2026-09-23T11:31:43.823+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json, application/*+json]
+2026-09-23T11:31:43.823+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.siec_acc.dto.response.OrganizationResponseDTO@21fdab3e]
+2026-09-23T11:31:43.825+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 201 CREATED
+2026-09-23T11:31:43.833+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/organization/ORG-32C2E826/logo?t=1790143303829", parameters={masked}
+2026-09-23T11:31:43.838+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.siec_acc.controller.OrganizationController#getOrganizationLogo(String)
+2026-09-23T11:31:43.841+05:30  INFO 7660 --- [siec-accounting] [http-nio-9093-exec-1] c.s.controller.OrganizationController    : GET /api/organization/ORG-32C2E826/logo
+2026-09-23T11:31:43.842+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Found 'Content-Type:image/png' in response
+2026-09-23T11:31:43.847+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{89504e470d0a1a0a0000000d49484452000001b0000000a60806000000bbb6da1800006a3449444154789ced9d77801c75d (truncated)...]
+2026-09-23T11:31:43.854+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-09-23T11:34:22.085+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/api/organization/ORG-32C2E826", parameters={}
+2026-09-23T11:34:22.087+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.siec_acc.controller.OrganizationController#getOrganization(String)
+2026-09-23T11:34:22.088+05:30  INFO 7660 --- [siec-accounting] [http-nio-9093-exec-4] c.s.controller.OrganizationController    : GET /api/organization/ORG-32C2E826
+2026-09-23T11:34:22.162+05:30  INFO 7660 --- [siec-accounting] [http-nio-9093-exec-4] c.s.s.s.OrganizationServiceImpl          : Fetching organization: ORG-32C2E826
+2026-09-23T11:34:22.171+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json, application/*+json]
+2026-09-23T11:34:22.172+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.siec_acc.dto.response.OrganizationResponseDTO@65b625dc]
+2026-09-23T11:34:22.174+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-09-23T11:34:22.948+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/api/organization/ORG-32C2E826/logo?t=1790143462929", parameters={masked}
+2026-09-23T11:34:22.950+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.siec_acc.controller.OrganizationController#getOrganizationLogo(String)
+2026-09-23T11:34:22.951+05:30  INFO 7660 --- [siec-accounting] [http-nio-9093-exec-5] c.s.controller.OrganizationController    : GET /api/organization/ORG-32C2E826/logo
+2026-09-23T11:34:22.953+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Found 'Content-Type:image/png' in response
+2026-09-23T11:34:22.954+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{89504e470d0a1a0a0000000d49484452000001b0000000a60806000000bbb6da1800006a3449444154789ced9d77801c75d (truncated)...]
+2026-09-23T11:34:22.956+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-09-23T11:34:42.613+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/api/organization/ORG-32C2E826", parameters={}
+2026-09-23T11:34:42.614+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.siec_acc.controller.OrganizationController#getOrganization(String)
+2026-09-23T11:34:42.615+05:30  INFO 7660 --- [siec-accounting] [http-nio-9093-exec-6] c.s.controller.OrganizationController    : GET /api/organization/ORG-32C2E826
+2026-09-23T11:34:42.617+05:30  INFO 7660 --- [siec-accounting] [http-nio-9093-exec-6] c.s.s.s.OrganizationServiceImpl          : Fetching organization: ORG-32C2E826
+2026-09-23T11:34:42.648+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json, application/*+json]
+2026-09-23T11:34:42.648+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.siec_acc.dto.response.OrganizationResponseDTO@26828da5]
+2026-09-23T11:34:42.650+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-09-23T11:34:42.789+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/api/organization/ORG-32C2E826/logo?t=1790143482786", parameters={masked}
+2026-09-23T11:34:42.790+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.siec_acc.controller.OrganizationController#getOrganizationLogo(String)
+2026-09-23T11:34:42.790+05:30  INFO 7660 --- [siec-accounting] [http-nio-9093-exec-7] c.s.controller.OrganizationController    : GET /api/organization/ORG-32C2E826/logo
+2026-09-23T11:34:42.792+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Found 'Content-Type:image/png' in response
+2026-09-23T11:34:42.792+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{89504e470d0a1a0a0000000d49484452000001b0000000a60806000000bbb6da1800006a3449444154789ced9d77801c75d (truncated)...]
+2026-09-23T11:34:42.797+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-09-23T11:34:46.117+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/api/organization/ORG-32C2E826", parameters={}
+2026-09-23T11:34:46.126+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.siec_acc.controller.OrganizationController#getOrganization(String)
+2026-09-23T11:34:46.127+05:30  INFO 7660 --- [siec-accounting] [http-nio-9093-exec-8] c.s.controller.OrganizationController    : GET /api/organization/ORG-32C2E826
+2026-09-23T11:34:46.131+05:30  INFO 7660 --- [siec-accounting] [http-nio-9093-exec-8] c.s.s.s.OrganizationServiceImpl          : Fetching organization: ORG-32C2E826
+2026-09-23T11:34:46.138+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json, application/*+json]
+2026-09-23T11:34:46.139+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.siec_acc.dto.response.OrganizationResponseDTO@55292670]
+2026-09-23T11:34:46.143+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-09-23T11:34:46.371+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/api/organization/ORG-32C2E826/logo?t=1790143486329", parameters={masked}
+2026-09-23T11:34:46.378+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.siec_acc.controller.OrganizationController#getOrganizationLogo(String)
+2026-09-23T11:34:46.380+05:30  INFO 7660 --- [siec-accounting] [http-nio-9093-exec-9] c.s.controller.OrganizationController    : GET /api/organization/ORG-32C2E826/logo
+2026-09-23T11:34:46.382+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Found 'Content-Type:image/png' in response
+2026-09-23T11:34:46.382+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{89504e470d0a1a0a0000000d49484452000001b0000000a60806000000bbb6da1800006a3449444154789ced9d77801c75d (truncated)...]
+2026-09-23T11:34:46.385+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-09-23T11:34:46.399+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/api/organization/ORG-32C2E826/logo?t=1790143486330", parameters={masked}
+2026-09-23T11:34:46.400+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.siec_acc.controller.OrganizationController#getOrganizationLogo(String)
+2026-09-23T11:34:46.401+05:30  INFO 7660 --- [siec-accounting] [http-nio-9093-exec-10] c.s.controller.OrganizationController    : GET /api/organization/ORG-32C2E826/logo
+2026-09-23T11:34:46.402+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Found 'Content-Type:image/png' in response
+2026-09-23T11:34:46.403+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{89504e470d0a1a0a0000000d49484452000001b0000000a60806000000bbb6da1800006a3449444154789ced9d77801c75d (truncated)...]
+2026-09-23T11:34:46.409+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-09-23T11:34:48.709+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-3] o.s.web.servlet.DispatcherServlet        : PUT "/api/organization/ORG-32C2E826", parameters={}
+2026-09-23T11:34:48.710+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.siec_acc.controller.OrganizationController#updateOrganization(String, OrganizationRequestDTO)
+2026-09-23T11:34:48.712+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.siec_acc.dto.request.OrganizationRequestDTO@20e56d27]
+2026-09-23T11:34:48.713+05:30  INFO 7660 --- [siec-accounting] [http-nio-9093-exec-3] c.s.controller.OrganizationController    : PUT /api/organization/ORG-32C2E826
+2026-09-23T11:34:48.715+05:30  INFO 7660 --- [siec-accounting] [http-nio-9093-exec-3] c.s.s.s.OrganizationServiceImpl          : PUT organization: ORG-32C2E826
+2026-09-23T11:34:48.721+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json, application/*+json]
+2026-09-23T11:34:48.722+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.siec_acc.dto.response.OrganizationResponseDTO@47f150d6]
+2026-09-23T11:34:48.723+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-09-23T11:34:48.742+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/organization/ORG-32C2E826/logo?t=1790143488726", parameters={masked}
+2026-09-23T11:34:48.744+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.siec_acc.controller.OrganizationController#getOrganizationLogo(String)
+2026-09-23T11:34:48.744+05:30  INFO 7660 --- [siec-accounting] [http-nio-9093-exec-2] c.s.controller.OrganizationController    : GET /api/organization/ORG-32C2E826/logo
+2026-09-23T11:34:48.746+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Found 'Content-Type:image/png' in response
+2026-09-23T11:34:48.747+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{89504e470d0a1a0a0000000d49484452000001b0000000a60806000000bbb6da1800006a3449444154789ced9d77801c75d (truncated)...]
+2026-09-23T11:34:48.751+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-09-23T11:35:06.600+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/api/organization/ORG-32C2E826/logo?t=1790143506549", parameters={masked}
+2026-09-23T11:35:06.601+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.siec_acc.controller.OrganizationController#getOrganizationLogo(String)
+2026-09-23T11:35:06.602+05:30  INFO 7660 --- [siec-accounting] [http-nio-9093-exec-4] c.s.controller.OrganizationController    : GET /api/organization/ORG-32C2E826/logo
+2026-09-23T11:35:06.603+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Found 'Content-Type:image/png' in response
+2026-09-23T11:35:06.604+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{89504e470d0a1a0a0000000d49484452000001b0000000a60806000000bbb6da1800006a3449444154789ced9d77801c75d (truncated)...]
+2026-09-23T11:35:06.605+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-09-23T11:35:10.639+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-5] o.s.web.servlet.DispatcherServlet        : PUT "/api/organization/ORG-32C2E826", parameters={}
+2026-09-23T11:35:10.639+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.siec_acc.controller.OrganizationController#updateOrganization(String, OrganizationRequestDTO)
+2026-09-23T11:35:10.640+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.siec_acc.dto.request.OrganizationRequestDTO@630a83f5]
+2026-09-23T11:35:10.641+05:30  INFO 7660 --- [siec-accounting] [http-nio-9093-exec-5] c.s.controller.OrganizationController    : PUT /api/organization/ORG-32C2E826
+2026-09-23T11:35:10.642+05:30  INFO 7660 --- [siec-accounting] [http-nio-9093-exec-5] c.s.s.s.OrganizationServiceImpl          : PUT organization: ORG-32C2E826
+2026-09-23T11:35:10.647+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json, application/*+json]
+2026-09-23T11:35:10.648+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.siec_acc.dto.response.OrganizationResponseDTO@65e445b3]
+2026-09-23T11:35:10.649+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-09-23T11:35:10.654+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/api/organization/ORG-32C2E826/logo?t=1790143510651", parameters={masked}
+2026-09-23T11:35:10.655+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.siec_acc.controller.OrganizationController#getOrganizationLogo(String)
+2026-09-23T11:35:10.656+05:30  INFO 7660 --- [siec-accounting] [http-nio-9093-exec-6] c.s.controller.OrganizationController    : GET /api/organization/ORG-32C2E826/logo
+2026-09-23T11:35:10.657+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Found 'Content-Type:image/png' in response
+2026-09-23T11:35:10.657+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{89504e470d0a1a0a0000000d49484452000001b0000000a60806000000bbb6da1800006a3449444154789ced9d77801c75d (truncated)...]
+2026-09-23T11:35:10.660+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-09-23T11:35:17.581+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/api/organization/ORG-32C2E826/logo?t=1790143517571", parameters={masked}
+2026-09-23T11:35:17.582+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.siec_acc.controller.OrganizationController#getOrganizationLogo(String)
+2026-09-23T11:35:17.582+05:30  INFO 7660 --- [siec-accounting] [http-nio-9093-exec-7] c.s.controller.OrganizationController    : GET /api/organization/ORG-32C2E826/logo
+2026-09-23T11:35:17.583+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Found 'Content-Type:image/png' in response
+2026-09-23T11:35:17.584+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{89504e470d0a1a0a0000000d49484452000001b0000000a60806000000bbb6da1800006a3449444154789ced9d77801c75d (truncated)...]
+2026-09-23T11:35:17.589+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-09-23T11:59:43.289+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-10] o.s.web.servlet.DispatcherServlet        : PUT "/api/organization/ORG-32C2E826", parameters={}
+2026-09-23T11:59:43.290+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.siec_acc.controller.OrganizationController#updateOrganization(String, OrganizationRequestDTO)
+2026-09-23T11:59:43.294+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.siec_acc.dto.request.OrganizationRequestDTO@28b007f2]
+2026-09-23T11:59:43.294+05:30  INFO 7660 --- [siec-accounting] [http-nio-9093-exec-10] c.s.controller.OrganizationController    : PUT /api/organization/ORG-32C2E826
+2026-09-23T11:59:43.303+05:30  INFO 7660 --- [siec-accounting] [http-nio-9093-exec-10] c.s.s.s.OrganizationServiceImpl          : PUT organization: ORG-32C2E826
+2026-09-23T11:59:43.346+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json, application/*+json]
+2026-09-23T11:59:43.346+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.siec_acc.dto.response.OrganizationResponseDTO@2a19a3]
+2026-09-23T11:59:43.351+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-09-23T11:59:43.365+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/organization/ORG-32C2E826/logo?t=1790144983356", parameters={masked}
+2026-09-23T11:59:43.367+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.siec_acc.controller.OrganizationController#getOrganizationLogo(String)
+2026-09-23T11:59:43.368+05:30  INFO 7660 --- [siec-accounting] [http-nio-9093-exec-1] c.s.controller.OrganizationController    : GET /api/organization/ORG-32C2E826/logo
+2026-09-23T11:59:43.369+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Found 'Content-Type:image/png' in response
+2026-09-23T11:59:43.370+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{89504e470d0a1a0a0000000d49484452000001b0000000a60806000000bbb6da1800006a3449444154789ced9d77801c75d (truncated)...]
+2026-09-23T11:59:43.374+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-09-23T12:00:01.898+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/api/organization/ORG-32C2E826/logo?t=1790145001886", parameters={masked}
+2026-09-23T12:00:01.899+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.siec_acc.controller.OrganizationController#getOrganizationLogo(String)
+2026-09-23T12:00:01.899+05:30  INFO 7660 --- [siec-accounting] [http-nio-9093-exec-3] c.s.controller.OrganizationController    : GET /api/organization/ORG-32C2E826/logo
+2026-09-23T12:00:01.901+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Found 'Content-Type:image/png' in response
+2026-09-23T12:00:01.901+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{89504e470d0a1a0a0000000d49484452000001b0000000a60806000000bbb6da1800006a3449444154789ced9d77801c75d (truncated)...]
+2026-09-23T12:00:01.905+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-09-23T12:00:06.388+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-2] o.s.web.servlet.DispatcherServlet        : PUT "/api/organization/ORG-32C2E826", parameters={}
+2026-09-23T12:00:06.389+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.siec_acc.controller.OrganizationController#updateOrganization(String, OrganizationRequestDTO)
+2026-09-23T12:00:06.390+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.siec_acc.dto.request.OrganizationRequestDTO@4aabb434]
+2026-09-23T12:00:06.391+05:30  INFO 7660 --- [siec-accounting] [http-nio-9093-exec-2] c.s.controller.OrganizationController    : PUT /api/organization/ORG-32C2E826
+2026-09-23T12:00:06.392+05:30  INFO 7660 --- [siec-accounting] [http-nio-9093-exec-2] c.s.s.s.OrganizationServiceImpl          : PUT organization: ORG-32C2E826
+2026-09-23T12:00:06.398+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json, application/*+json]
+2026-09-23T12:00:06.398+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.siec_acc.dto.response.OrganizationResponseDTO@593cc303]
+2026-09-23T12:00:06.399+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-09-23T12:00:06.406+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/api/organization/ORG-32C2E826/logo?t=1790145006402", parameters={masked}
+2026-09-23T12:00:06.407+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.siec_acc.controller.OrganizationController#getOrganizationLogo(String)
+2026-09-23T12:00:06.409+05:30  INFO 7660 --- [siec-accounting] [http-nio-9093-exec-4] c.s.controller.OrganizationController    : GET /api/organization/ORG-32C2E826/logo
+2026-09-23T12:00:06.410+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Found 'Content-Type:image/png' in response
+2026-09-23T12:00:06.411+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{89504e470d0a1a0a0000000d49484452000001b0000000a60806000000bbb6da1800006a3449444154789ced9d77801c75d (truncated)...]
+2026-09-23T12:00:06.416+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-09-23T12:00:11.252+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-5] o.s.web.servlet.DispatcherServlet        : DELETE "/api/organization/ORG-32C2E826", parameters={}
+2026-09-23T12:00:11.253+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.siec_acc.controller.OrganizationController#deleteOrganization(String)
+2026-09-23T12:00:11.253+05:30  INFO 7660 --- [siec-accounting] [http-nio-9093-exec-5] c.s.controller.OrganizationController    : DELETE /api/organization/ORG-32C2E826
+2026-09-23T12:00:11.255+05:30  INFO 7660 --- [siec-accounting] [http-nio-9093-exec-5] c.s.s.s.OrganizationServiceImpl          : Deleting organization: ORG-32C2E826
+2026-09-23T12:00:11.259+05:30  INFO 7660 --- [siec-accounting] [http-nio-9093-exec-5] c.s.s.s.OrganizationServiceImpl          : Organization deleted: ORG-32C2E826
+2026-09-23T12:00:11.318+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+2026-09-23T12:00:11.318+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Organization deleted successfully"]
+2026-09-23T12:00:11.319+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-09-23T12:00:52.731+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-6] o.s.web.servlet.DispatcherServlet        : POST "/api/organization", parameters={}
+2026-09-23T12:00:52.731+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.siec_acc.controller.OrganizationController#createOrganization(OrganizationRequestDTO)
+2026-09-23T12:00:52.733+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.siec_acc.dto.request.OrganizationRequestDTO@5229139b]
+2026-09-23T12:00:52.733+05:30  INFO 7660 --- [siec-accounting] [http-nio-9093-exec-6] c.s.controller.OrganizationController    : POST /api/organization
+2026-09-23T12:00:52.734+05:30  INFO 7660 --- [siec-accounting] [http-nio-9093-exec-6] c.s.s.s.OrganizationServiceImpl          : Creating organization
+2026-09-23T12:00:52.809+05:30  INFO 7660 --- [siec-accounting] [http-nio-9093-exec-6] c.s.s.s.OrganizationServiceImpl          : Organization saved: ORG-4CB78DEA
+2026-09-23T12:00:52.829+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json, application/*+json]
+2026-09-23T12:00:52.829+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.siec_acc.dto.response.OrganizationResponseDTO@5d11db]
+2026-09-23T12:00:52.831+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 201 CREATED
+2026-09-23T12:00:52.838+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/api/organization/ORG-4CB78DEA/logo?t=1790145052834", parameters={masked}
+2026-09-23T12:00:52.839+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.siec_acc.controller.OrganizationController#getOrganizationLogo(String)
+2026-09-23T12:00:52.840+05:30  INFO 7660 --- [siec-accounting] [http-nio-9093-exec-7] c.s.controller.OrganizationController    : GET /api/organization/ORG-4CB78DEA/logo
+2026-09-23T12:00:52.841+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Found 'Content-Type:image/png' in response
+2026-09-23T12:00:52.842+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{89504e470d0a1a0a0000000d49484452000001b0000000a60806000000bbb6da1800006a3449444154789ced9d77801c75d (truncated)...]
+2026-09-23T12:00:52.844+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-09-23T12:01:08.326+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/api/organization/ORG-4CB78DEA/logo?t=1790145068319", parameters={masked}
+2026-09-23T12:01:08.327+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.siec_acc.controller.OrganizationController#getOrganizationLogo(String)
+2026-09-23T12:01:08.328+05:30  INFO 7660 --- [siec-accounting] [http-nio-9093-exec-8] c.s.controller.OrganizationController    : GET /api/organization/ORG-4CB78DEA/logo
+2026-09-23T12:01:08.329+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Found 'Content-Type:image/png' in response
+2026-09-23T12:01:08.329+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{89504e470d0a1a0a0000000d49484452000001b0000000a60806000000bbb6da1800006a3449444154789ced9d77801c75d (truncated)...]
+2026-09-23T12:01:08.337+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-09-23T14:41:57.934+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-3] o.s.web.servlet.DispatcherServlet        : PUT "/api/organization/ORG-4CB78DEA", parameters={}
+2026-09-23T14:41:57.941+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.siec_acc.controller.OrganizationController#updateOrganization(String, OrganizationRequestDTO)
+2026-09-23T14:41:57.963+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.siec_acc.dto.request.OrganizationRequestDTO@6159ddea]
+2026-09-23T14:41:57.965+05:30  INFO 7660 --- [siec-accounting] [http-nio-9093-exec-3] c.s.controller.OrganizationController    : PUT /api/organization/ORG-4CB78DEA
+2026-09-23T14:41:57.982+05:30  INFO 7660 --- [siec-accounting] [http-nio-9093-exec-3] c.s.s.s.OrganizationServiceImpl          : PUT organization: ORG-4CB78DEA
+2026-09-23T14:41:58.063+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json, application/*+json]
+2026-09-23T14:41:58.064+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.siec_acc.dto.response.OrganizationResponseDTO@b71565]
+2026-09-23T14:41:58.069+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-09-23T14:41:58.130+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/organization/ORG-4CB78DEA/logo?t=1790154718082", parameters={masked}
+2026-09-23T14:41:58.143+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.siec_acc.controller.OrganizationController#getOrganizationLogo(String)
+2026-09-23T14:41:58.167+05:30  INFO 7660 --- [siec-accounting] [http-nio-9093-exec-2] c.s.controller.OrganizationController    : GET /api/organization/ORG-4CB78DEA/logo
+2026-09-23T14:41:58.200+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Found 'Content-Type:image/png' in response
+2026-09-23T14:41:58.211+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{89504e470d0a1a0a0000000d49484452000001b0000000a60806000000bbb6da1800006a3449444154789ced9d77801c75d (truncated)...]
+2026-09-23T14:41:58.215+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-09-23T14:42:01.705+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-4] o.s.web.servlet.DispatcherServlet        : DELETE "/api/organization/ORG-4CB78DEA", parameters={}
+2026-09-23T14:42:01.707+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.siec_acc.controller.OrganizationController#deleteOrganization(String)
+2026-09-23T14:42:01.710+05:30  INFO 7660 --- [siec-accounting] [http-nio-9093-exec-4] c.s.controller.OrganizationController    : DELETE /api/organization/ORG-4CB78DEA
+2026-09-23T14:42:01.712+05:30  INFO 7660 --- [siec-accounting] [http-nio-9093-exec-4] c.s.s.s.OrganizationServiceImpl          : Deleting organization: ORG-4CB78DEA
+2026-09-23T14:42:01.724+05:30  INFO 7660 --- [siec-accounting] [http-nio-9093-exec-4] c.s.s.s.OrganizationServiceImpl          : Organization deleted: ORG-4CB78DEA
+2026-09-23T14:42:01.787+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+2026-09-23T14:42:01.788+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Organization deleted successfully"]
+2026-09-23T14:42:01.791+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-09-23T14:42:38.128+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-5] o.s.web.servlet.DispatcherServlet        : POST "/api/organization", parameters={}
+2026-09-23T14:42:38.128+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.siec_acc.controller.OrganizationController#createOrganization(OrganizationRequestDTO)
+2026-09-23T14:42:38.133+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.siec_acc.dto.request.OrganizationRequestDTO@12ed8f1c]
+2026-09-23T14:42:38.134+05:30  INFO 7660 --- [siec-accounting] [http-nio-9093-exec-5] c.s.controller.OrganizationController    : POST /api/organization
+2026-09-23T14:42:38.137+05:30  INFO 7660 --- [siec-accounting] [http-nio-9093-exec-5] c.s.s.s.OrganizationServiceImpl          : Creating organization
+2026-09-23T14:42:38.286+05:30  INFO 7660 --- [siec-accounting] [http-nio-9093-exec-5] c.s.s.s.OrganizationServiceImpl          : Organization saved: ORG-49A23DDC
+2026-09-23T14:42:38.308+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json, application/*+json]
+2026-09-23T14:42:38.309+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.siec_acc.dto.response.OrganizationResponseDTO@36df5965]
+2026-09-23T14:42:38.311+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 201 CREATED
+2026-09-23T14:42:38.380+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/api/organization/ORG-49A23DDC/logo?t=1790154758316", parameters={masked}
+2026-09-23T14:42:38.391+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.siec_acc.controller.OrganizationController#getOrganizationLogo(String)
+2026-09-23T14:42:38.399+05:30  INFO 7660 --- [siec-accounting] [http-nio-9093-exec-6] c.s.controller.OrganizationController    : GET /api/organization/ORG-49A23DDC/logo
+2026-09-23T14:42:38.415+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Found 'Content-Type:image/png' in response
+2026-09-23T14:42:38.415+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{89504e470d0a1a0a0000000d49484452000001b0000000a60806000000bbb6da1800006a3449444154789ced9d77801c75d (truncated)...]
+2026-09-23T14:42:38.419+05:30 DEBUG 7660 --- [siec-accounting] [http-nio-9093-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-09-23T15:03:41.723+05:30  INFO 7660 --- [siec-accounting] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-23T15:03:41.753+05:30  INFO 7660 --- [siec-accounting] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-09-23T15:03:41.847+05:30  INFO 7660 --- [siec-accounting] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-09-23T15:03:41.879+05:30  INFO 7660 --- [siec-accounting] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-09-23T15:03:41.894+05:30  INFO 7660 --- [siec-accounting] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-09-23T15:04:00.282+05:30  INFO 20508 --- [siec-accounting] [restartedMain] com.siec_acc.SiecAccountingApplication   : Starting SiecAccountingApplication using Java 21.0.12.1 with PID 20508 (C:\Users\admin\Desktop\SIEC\siec_acc_admin_backend_v1_0\target\classes started by admin in C:\Users\admin\Desktop\SIEC\siec_acc_admin_backend_v1_0)
+2026-09-23T15:04:00.292+05:30  INFO 20508 --- [siec-accounting] [restartedMain] com.siec_acc.SiecAccountingApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-09-23T15:04:00.529+05:30  INFO 20508 --- [siec-accounting] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\admin\.m2\repository\io\github\cdimascio\java-dotenv\5.2.2\java-dotenv-5.2.2.jar referenced one or more files that do not exist: file:/C:/Users/admin/.m2/repository/io/github/cdimascio/java-dotenv/5.2.2/kotlin-stdlib-1.4.0.jar,file:/C:/Users/admin/.m2/repository/io/github/cdimascio/java-dotenv/5.2.2/kotlin-stdlib-common-1.4.0.jar,file:/C:/Users/admin/.m2/repository/io/github/cdimascio/java-dotenv/5.2.2/annotations-13.0.jar
+2026-09-23T15:04:00.529+05:30  INFO 20508 --- [siec-accounting] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-09-23T15:04:00.530+05:30  INFO 20508 --- [siec-accounting] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-09-23T15:04:03.456+05:30  INFO 20508 --- [siec-accounting] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-09-23T15:04:03.459+05:30  INFO 20508 --- [siec-accounting] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-09-23T15:04:03.547+05:30  INFO 20508 --- [siec-accounting] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.siec_acc.repository.AdminRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2026-09-23T15:04:03.551+05:30  INFO 20508 --- [siec-accounting] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.siec_acc.repository.InventoryHistoryRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2026-09-23T15:04:03.556+05:30  INFO 20508 --- [siec-accounting] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.siec_acc.repository.InventoryRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2026-09-23T15:04:03.559+05:30  INFO 20508 --- [siec-accounting] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.siec_acc.repository.OrganizationRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2026-09-23T15:04:03.563+05:30  INFO 20508 --- [siec-accounting] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.siec_acc.repository.ProductRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2026-09-23T15:04:03.568+05:30  INFO 20508 --- [siec-accounting] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.siec_acc.repository.VariantRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2026-09-23T15:04:03.570+05:30  INFO 20508 --- [siec-accounting] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 96 ms. Found 0 JDBC repository interfaces.
+2026-09-23T15:04:03.614+05:30  INFO 20508 --- [siec-accounting] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-09-23T15:04:03.617+05:30  INFO 20508 --- [siec-accounting] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-23T15:04:03.899+05:30  INFO 20508 --- [siec-accounting] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 270 ms. Found 6 JPA repository interfaces.
+2026-09-23T15:04:05.989+05:30  INFO 20508 --- [siec-accounting] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9093 (http)
+2026-09-23T15:04:06.031+05:30  INFO 20508 --- [siec-accounting] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-23T15:04:06.032+05:30  INFO 20508 --- [siec-accounting] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-23T15:04:06.160+05:30  INFO 20508 --- [siec-accounting] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 5629 ms
+2026-09-23T15:04:06.670+05:30  INFO 20508 --- [siec-accounting] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-09-23T15:04:06.920+05:30  INFO 20508 --- [siec-accounting] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.5.Final
+2026-09-23T15:04:08.521+05:30  INFO 20508 --- [siec-accounting] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-23T15:04:08.621+05:30  INFO 20508 --- [siec-accounting] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-09-23T15:04:09.064+05:30  INFO 20508 --- [siec-accounting] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1b76e0c4
+2026-09-23T15:04:09.068+05:30  INFO 20508 --- [siec-accounting] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-09-23T15:04:09.324+05:30  INFO 20508 --- [siec-accounting] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/siec_acc_db?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true&allowPublicKeyRetrieval=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.39
+	Default catalog/schema: siec_acc_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-23T15:04:13.499+05:30  INFO 20508 --- [siec-accounting] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-23T15:04:13.889+05:30  INFO 20508 --- [siec-accounting] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-23T15:04:14.148+05:30  INFO 20508 --- [siec-accounting] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-09-23T15:04:15.335+05:30  INFO 20508 --- [siec-accounting] [restartedMain] com.siec_acc.security.SecurityConfig     : SecurityConfig bean initialized
+2026-09-23T15:04:15.362+05:30  INFO 20508 --- [siec-accounting] [restartedMain] com.siec_acc.security.AuthController     : AuthController initialized
+2026-09-23T15:04:15.549+05:30  WARN 20508 --- [siec-accounting] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-09-23T15:04:15.913+05:30  INFO 20508 --- [siec-accounting] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-09-23T15:04:15.917+05:30  WARN 20508 --- [siec-accounting] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-09-23T15:04:16.220+05:30  INFO 20508 --- [siec-accounting] [restartedMain] com.siec_acc.security.SecurityConfig     : SecurityFilterChain configured successfully (OAuth2 removed)
+2026-09-23T15:04:16.540+05:30 DEBUG 20508 --- [siec-accounting] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 33 mappings in 'requestMappingHandlerMapping'
+2026-09-23T15:04:16.665+05:30 DEBUG 20508 --- [siec-accounting] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-09-23T15:04:16.743+05:30 DEBUG 20508 --- [siec-accounting] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-09-23T15:04:16.905+05:30 DEBUG 20508 --- [siec-accounting] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-09-23T15:04:17.663+05:30  INFO 20508 --- [siec-accounting] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9093 (http) with context path '/'
+2026-09-23T15:04:17.677+05:30  INFO 20508 --- [siec-accounting] [restartedMain] com.siec_acc.SiecAccountingApplication   : Started SiecAccountingApplication in 19.1 seconds (process running for 21.338)
+2026-09-23T15:04:48.476+05:30  INFO 20508 --- [siec-accounting] [http-nio-9093-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-23T15:04:48.478+05:30  INFO 20508 --- [siec-accounting] [http-nio-9093-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-09-23T15:04:48.478+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2026-09-23T15:04:48.479+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2026-09-23T15:04:48.482+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@7c4260aa
+2026-09-23T15:04:48.484+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@499f1546
+2026-09-23T15:04:48.487+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-09-23T15:04:48.489+05:30  INFO 20508 --- [siec-accounting] [http-nio-9093-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2026-09-23T15:04:48.665+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/organization/ORG-49A23DDC", parameters={}
+2026-09-23T15:04:48.733+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.siec_acc.controller.OrganizationController#getOrganization(String)
+2026-09-23T15:04:48.823+05:30  INFO 20508 --- [siec-accounting] [http-nio-9093-exec-1] c.s.controller.OrganizationController    : GET /api/organization/ORG-49A23DDC
+2026-09-23T15:04:48.872+05:30  INFO 20508 --- [siec-accounting] [http-nio-9093-exec-1] c.s.s.s.OrganizationServiceImpl          : Fetching organization: ORG-49A23DDC
+2026-09-23T15:04:50.198+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json, application/*+json]
+2026-09-23T15:04:50.200+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.siec_acc.dto.response.OrganizationResponseDTO@58f353bd]
+2026-09-23T15:04:50.326+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-09-23T15:04:50.346+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/organization/ORG-49A23DDC/logo?t=1790156090336", parameters={masked}
+2026-09-23T15:04:50.346+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/api/organization/ORG-49A23DDC/logo?t=1790156090338", parameters={masked}
+2026-09-23T15:04:50.350+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.siec_acc.controller.OrganizationController#getOrganizationLogo(String)
+2026-09-23T15:04:50.351+05:30  INFO 20508 --- [siec-accounting] [http-nio-9093-exec-3] c.s.controller.OrganizationController    : GET /api/organization/ORG-49A23DDC/logo
+2026-09-23T15:04:50.350+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.siec_acc.controller.OrganizationController#getOrganizationLogo(String)
+2026-09-23T15:04:50.354+05:30  INFO 20508 --- [siec-accounting] [http-nio-9093-exec-2] c.s.controller.OrganizationController    : GET /api/organization/ORG-49A23DDC/logo
+2026-09-23T15:04:50.358+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Found 'Content-Type:image/png' in response
+2026-09-23T15:04:50.360+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Found 'Content-Type:image/png' in response
+2026-09-23T15:04:50.368+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{89504e470d0a1a0a0000000d49484452000001b0000000a60806000000bbb6da1800006a3449444154789ced9d77801c75d (truncated)...]
+2026-09-23T15:04:50.372+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-09-23T15:04:50.375+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{89504e470d0a1a0a0000000d49484452000001b0000000a60806000000bbb6da1800006a3449444154789ced9d77801c75d (truncated)...]
+2026-09-23T15:04:50.377+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-09-23T15:04:52.955+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-5] o.s.web.servlet.DispatcherServlet        : PUT "/api/organization/ORG-49A23DDC", parameters={}
+2026-09-23T15:04:52.956+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.siec_acc.controller.OrganizationController#updateOrganization(String, OrganizationRequestDTO)
+2026-09-23T15:04:53.027+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.siec_acc.dto.request.OrganizationRequestDTO@11ccadf6]
+2026-09-23T15:04:53.031+05:30  INFO 20508 --- [siec-accounting] [http-nio-9093-exec-5] c.s.controller.OrganizationController    : PUT /api/organization/ORG-49A23DDC
+2026-09-23T15:04:53.034+05:30  INFO 20508 --- [siec-accounting] [http-nio-9093-exec-5] c.s.s.s.OrganizationServiceImpl          : PUT organization: ORG-49A23DDC
+2026-09-23T15:04:53.065+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json, application/*+json]
+2026-09-23T15:04:53.066+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.siec_acc.dto.response.OrganizationResponseDTO@58e3c761]
+2026-09-23T15:04:53.069+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-09-23T15:04:53.155+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/api/organization/ORG-49A23DDC/logo?t=1790156093089", parameters={masked}
+2026-09-23T15:04:53.156+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.siec_acc.controller.OrganizationController#getOrganizationLogo(String)
+2026-09-23T15:04:53.156+05:30  INFO 20508 --- [siec-accounting] [http-nio-9093-exec-6] c.s.controller.OrganizationController    : GET /api/organization/ORG-49A23DDC/logo
+2026-09-23T15:04:53.158+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Found 'Content-Type:image/png' in response
+2026-09-23T15:04:53.164+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{89504e470d0a1a0a0000000d49484452000001b0000000a60806000000bbb6da1800006a3449444154789ced9d77801c75d (truncated)...]
+2026-09-23T15:04:53.167+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-09-23T15:05:05.888+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-7] o.s.web.servlet.DispatcherServlet        : DELETE "/api/organization/ORG-49A23DDC", parameters={}
+2026-09-23T15:05:05.888+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.siec_acc.controller.OrganizationController#deleteOrganization(String)
+2026-09-23T15:05:05.889+05:30  INFO 20508 --- [siec-accounting] [http-nio-9093-exec-7] c.s.controller.OrganizationController    : DELETE /api/organization/ORG-49A23DDC
+2026-09-23T15:05:05.891+05:30  INFO 20508 --- [siec-accounting] [http-nio-9093-exec-7] c.s.s.s.OrganizationServiceImpl          : Deleting organization: ORG-49A23DDC
+2026-09-23T15:05:05.895+05:30  INFO 20508 --- [siec-accounting] [http-nio-9093-exec-7] c.s.s.s.OrganizationServiceImpl          : Organization logo deleted: uploads\organization\ORG-49A23DDC.png
+2026-09-23T15:05:05.905+05:30  INFO 20508 --- [siec-accounting] [http-nio-9093-exec-7] c.s.s.s.OrganizationServiceImpl          : Organization deleted: ORG-49A23DDC
+2026-09-23T15:05:05.956+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+2026-09-23T15:05:05.956+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Organization deleted successfully"]
+2026-09-23T15:05:05.958+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-09-23T15:06:09.710+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-8] o.s.web.servlet.DispatcherServlet        : POST "/api/organization", parameters={}
+2026-09-23T15:06:09.711+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.siec_acc.controller.OrganizationController#createOrganization(OrganizationRequestDTO)
+2026-09-23T15:06:09.727+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.siec_acc.dto.request.OrganizationRequestDTO@1d7f925c]
+2026-09-23T15:06:09.728+05:30  INFO 20508 --- [siec-accounting] [http-nio-9093-exec-8] c.s.controller.OrganizationController    : POST /api/organization
+2026-09-23T15:06:09.730+05:30  INFO 20508 --- [siec-accounting] [http-nio-9093-exec-8] c.s.s.s.OrganizationServiceImpl          : Creating organization
+2026-09-23T15:06:09.855+05:30  INFO 20508 --- [siec-accounting] [http-nio-9093-exec-8] c.s.s.s.OrganizationServiceImpl          : Organization saved: ORG-6341BA86
+2026-09-23T15:06:09.871+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json, application/*+json]
+2026-09-23T15:06:09.872+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.siec_acc.dto.response.OrganizationResponseDTO@16a80de2]
+2026-09-23T15:06:09.874+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 201 CREATED
+2026-09-23T15:06:09.897+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/api/organization/ORG-6341BA86/logo?t=1790156169879", parameters={masked}
+2026-09-23T15:06:09.898+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.siec_acc.controller.OrganizationController#getOrganizationLogo(String)
+2026-09-23T15:06:09.899+05:30  INFO 20508 --- [siec-accounting] [http-nio-9093-exec-9] c.s.controller.OrganizationController    : GET /api/organization/ORG-6341BA86/logo
+2026-09-23T15:06:09.903+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Found 'Content-Type:image/png' in response
+2026-09-23T15:06:09.904+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{89504e470d0a1a0a0000000d49484452000001b0000000a60806000000bbb6da1800006a3449444154789ced9d77801c75d (truncated)...]
+2026-09-23T15:06:09.918+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-09-23T16:18:37.740+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/organization/ORG-6341BA86", parameters={}
+2026-09-23T16:18:37.750+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.siec_acc.controller.OrganizationController#getOrganization(String)
+2026-09-23T16:18:37.772+05:30  INFO 20508 --- [siec-accounting] [http-nio-9093-exec-2] c.s.controller.OrganizationController    : GET /api/organization/ORG-6341BA86
+2026-09-23T16:18:37.781+05:30  INFO 20508 --- [siec-accounting] [http-nio-9093-exec-2] c.s.s.s.OrganizationServiceImpl          : Fetching organization: ORG-6341BA86
+2026-09-23T16:18:37.845+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json, application/*+json]
+2026-09-23T16:18:37.847+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.siec_acc.dto.response.OrganizationResponseDTO@7bba8152]
+2026-09-23T16:18:37.861+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-09-23T16:18:38.029+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/api/organization/ORG-6341BA86/logo?t=1790160518008", parameters={masked}
+2026-09-23T16:18:38.032+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/api/organization/ORG-6341BA86/logo?t=1790160518011", parameters={masked}
+2026-09-23T16:18:38.033+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.siec_acc.controller.OrganizationController#getOrganizationLogo(String)
+2026-09-23T16:18:38.037+05:30  INFO 20508 --- [siec-accounting] [http-nio-9093-exec-5] c.s.controller.OrganizationController    : GET /api/organization/ORG-6341BA86/logo
+2026-09-23T16:18:38.031+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.siec_acc.controller.OrganizationController#getOrganizationLogo(String)
+2026-09-23T16:18:38.041+05:30  INFO 20508 --- [siec-accounting] [http-nio-9093-exec-4] c.s.controller.OrganizationController    : GET /api/organization/ORG-6341BA86/logo
+2026-09-23T16:18:38.045+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Found 'Content-Type:image/png' in response
+2026-09-23T16:18:38.051+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{89504e470d0a1a0a0000000d49484452000001b0000000a60806000000bbb6da1800006a3449444154789ced9d77801c75d (truncated)...]
+2026-09-23T16:18:38.057+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-09-23T16:18:38.045+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Found 'Content-Type:image/png' in response
+2026-09-23T16:18:38.065+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{89504e470d0a1a0a0000000d49484452000001b0000000a60806000000bbb6da1800006a3449444154789ced9d77801c75d (truncated)...]
+2026-09-23T16:18:38.070+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-09-23T16:24:18.639+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-10] o.s.web.servlet.DispatcherServlet        : PUT "/api/organization/ORG-6341BA86", parameters={}
+2026-09-23T16:24:18.645+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.siec_acc.controller.OrganizationController#updateOrganization(String, OrganizationRequestDTO)
+2026-09-23T16:24:18.698+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.siec_acc.dto.request.OrganizationRequestDTO@11418bf]
+2026-09-23T16:24:18.735+05:30  INFO 20508 --- [siec-accounting] [http-nio-9093-exec-10] c.s.controller.OrganizationController    : PUT /api/organization/ORG-6341BA86
+2026-09-23T16:24:18.740+05:30  INFO 20508 --- [siec-accounting] [http-nio-9093-exec-10] c.s.s.s.OrganizationServiceImpl          : PUT organization: ORG-6341BA86
+2026-09-23T16:24:18.829+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json, application/*+json]
+2026-09-23T16:24:18.830+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.siec_acc.dto.response.OrganizationResponseDTO@4850b3c8]
+2026-09-23T16:24:18.832+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-09-23T16:24:18.862+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/organization/ORG-6341BA86/logo?t=1790160858836", parameters={masked}
+2026-09-23T16:24:18.864+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.siec_acc.controller.OrganizationController#getOrganizationLogo(String)
+2026-09-23T16:24:18.865+05:30  INFO 20508 --- [siec-accounting] [http-nio-9093-exec-1] c.s.controller.OrganizationController    : GET /api/organization/ORG-6341BA86/logo
+2026-09-23T16:24:18.871+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Found 'Content-Type:image/png' in response
+2026-09-23T16:24:18.872+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{89504e470d0a1a0a0000000d49484452000001b0000000a60806000000bbb6da1800006a3449444154789ced9d77801c75d (truncated)...]
+2026-09-23T16:24:18.879+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-09-23T16:24:25.896+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/api/organization/ORG-6341BA86/logo", parameters={}
+2026-09-23T16:24:25.899+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.siec_acc.controller.OrganizationController#getOrganizationLogo(String)
+2026-09-23T16:24:25.900+05:30  INFO 20508 --- [siec-accounting] [http-nio-9093-exec-3] c.s.controller.OrganizationController    : GET /api/organization/ORG-6341BA86/logo
+2026-09-23T16:24:25.902+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Found 'Content-Type:image/png' in response
+2026-09-23T16:24:25.904+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{89504e470d0a1a0a0000000d49484452000001b0000000a60806000000bbb6da1800006a3449444154789ced9d77801c75d (truncated)...]
+2026-09-23T16:24:25.913+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-09-23T16:24:25.986+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2026-09-23T16:24:26.170+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2026-09-23T16:24:26.261+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler com.siec_acc.exceptions.GlobalExceptionHandler#handleGeneric(Exception)
+2026-09-23T16:24:26.266+05:30 ERROR 20508 --- [siec-accounting] [http-nio-9093-exec-2] c.s.exceptions.GlobalExceptionHandler    : Unexpected error occurred
+
+org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico for request '/favicon.ico'.
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:527) ~[spring-webmvc-7.0.9.jar:7.0.9]
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:50) ~[spring-webmvc-7.0.9.jar:7.0.9]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-7.0.9.jar:7.0.9]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866) ~[spring-webmvc-7.0.9.jar:7.0.9]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000) ~[spring-webmvc-7.0.9.jar:7.0.9]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:892) ~[spring-webmvc-7.0.9.jar:7.0.9]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:622) ~[tomcat-embed-core-11.0.24.jar:6.1]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874) ~[spring-webmvc-7.0.9.jar:7.0.9]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710) ~[tomcat-embed-core-11.0.24.jar:6.1]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:132) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:59) ~[tomcat-embed-websocket-11.0.24.jar:11.0.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$2(FilterChainProxy.java:235) ~[spring-security-web-7.1.1.jar:7.1.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:376) ~[spring-security-web-7.1.1.jar:7.1.1]
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:101) ~[spring-security-web-7.1.1.jar:7.1.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.1.1.jar:7.1.1]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126) ~[spring-security-web-7.1.1.jar:7.1.1]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120) ~[spring-security-web-7.1.1.jar:7.1.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.1.1.jar:7.1.1]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:132) ~[spring-security-web-7.1.1.jar:7.1.1]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:86) ~[spring-security-web-7.1.1.jar:7.1.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.1.1.jar:7.1.1]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100) ~[spring-security-web-7.1.1.jar:7.1.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.1.1.jar:7.1.1]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:181) ~[spring-security-web-7.1.1.jar:7.1.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.1.1.jar:7.1.1]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-7.1.1.jar:7.1.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.1.1.jar:7.1.1]
+	at com.siec_acc.security.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:86) ~[classes/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.1.1.jar:7.1.1]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:110) ~[spring-security-web-7.1.1.jar:7.1.1]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:96) ~[spring-security-web-7.1.1.jar:7.1.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.1.1.jar:7.1.1]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.1.1.jar:7.1.1]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-7.1.1.jar:7.1.1]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-7.1.1.jar:7.1.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.1.1.jar:7.1.1]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-7.1.1.jar:7.1.1]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-7.1.1.jar:7.1.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.1.1.jar:7.1.1]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-7.1.1.jar:7.1.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.1.1.jar:7.1.1]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-7.1.1.jar:7.1.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.1.1.jar:7.1.1]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:237) ~[spring-security-web-7.1.1.jar:7.1.1]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:195) ~[spring-security-web-7.1.1.jar:7.1.1]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.springframework.web.filter.ServletRequestPathFilter.doFilter(ServletRequestPathFilter.java:52) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebSecurityConfiguration.java:317) ~[spring-security-config-7.1.1.jar:7.1.1]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:355) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:272) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:535) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:86) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:71) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:347) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:406) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:71) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1307) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:2036) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:74) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:949) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:483) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:74) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2026-09-23T16:24:26.368+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [application/json, application/*+json]
+2026-09-23T16:24:26.383+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.siec_acc.exceptions.ApiResponse@2e0e3a1a]
+2026-09-23T16:24:26.457+05:30  WARN 20508 --- [siec-accounting] [http-nio-9093-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico for request '/favicon.ico'.]
+2026-09-23T16:24:26.458+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 500 INTERNAL_SERVER_ERROR
+2026-09-23T16:25:50.437+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-6] o.s.web.servlet.DispatcherServlet        : DELETE "/api/organization/ORG-6341BA86", parameters={}
+2026-09-23T16:25:50.438+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.siec_acc.controller.OrganizationController#deleteOrganization(String)
+2026-09-23T16:25:50.440+05:30  INFO 20508 --- [siec-accounting] [http-nio-9093-exec-6] c.s.controller.OrganizationController    : DELETE /api/organization/ORG-6341BA86
+2026-09-23T16:25:50.444+05:30  INFO 20508 --- [siec-accounting] [http-nio-9093-exec-6] c.s.s.s.OrganizationServiceImpl          : Deleting organization: ORG-6341BA86
+2026-09-23T16:25:50.460+05:30  INFO 20508 --- [siec-accounting] [http-nio-9093-exec-6] c.s.s.s.OrganizationServiceImpl          : Organization logo deleted: uploads\organization\ORG-6341BA86.png
+2026-09-23T16:25:50.466+05:30  INFO 20508 --- [siec-accounting] [http-nio-9093-exec-6] c.s.s.s.OrganizationServiceImpl          : Organization deleted: ORG-6341BA86
+2026-09-23T16:25:50.707+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+2026-09-23T16:25:50.707+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Organization deleted successfully"]
+2026-09-23T16:25:50.709+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-09-23T16:26:26.943+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-8] o.s.web.servlet.DispatcherServlet        : POST "/api/organization", parameters={}
+2026-09-23T16:26:26.943+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.siec_acc.controller.OrganizationController#createOrganization(OrganizationRequestDTO)
+2026-09-23T16:26:26.954+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.siec_acc.dto.request.OrganizationRequestDTO@3cc8d2]
+2026-09-23T16:26:26.975+05:30  INFO 20508 --- [siec-accounting] [http-nio-9093-exec-8] c.s.controller.OrganizationController    : POST /api/organization
+2026-09-23T16:26:26.978+05:30  INFO 20508 --- [siec-accounting] [http-nio-9093-exec-8] c.s.s.s.OrganizationServiceImpl          : Creating organization
+2026-09-23T16:26:27.293+05:30  INFO 20508 --- [siec-accounting] [http-nio-9093-exec-8] c.s.s.s.OrganizationServiceImpl          : Organization saved: ORG-2380C535
+2026-09-23T16:26:27.314+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json, application/*+json]
+2026-09-23T16:26:27.315+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.siec_acc.dto.response.OrganizationResponseDTO@1a1ee1dd]
+2026-09-23T16:26:27.318+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 201 CREATED
+2026-09-23T16:26:27.336+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/api/organization/ORG-2380C535/logo?t=1790160987321", parameters={masked}
+2026-09-23T16:26:27.337+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.siec_acc.controller.OrganizationController#getOrganizationLogo(String)
+2026-09-23T16:26:27.338+05:30  INFO 20508 --- [siec-accounting] [http-nio-9093-exec-9] c.s.controller.OrganizationController    : GET /api/organization/ORG-2380C535/logo
+2026-09-23T16:26:27.343+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Found 'Content-Type:image/png' in response
+2026-09-23T16:26:27.343+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{89504e470d0a1a0a0000000d49484452000001b0000000a60806000000bbb6da1800006a3449444154789ced9d77801c75d (truncated)...]
+2026-09-23T16:26:27.346+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-09-23T16:27:00.769+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/api/organization/ORG-2380C535/logo?t=1790161020762", parameters={masked}
+2026-09-23T16:27:00.770+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.siec_acc.controller.OrganizationController#getOrganizationLogo(String)
+2026-09-23T16:27:00.771+05:30  INFO 20508 --- [siec-accounting] [http-nio-9093-exec-3] c.s.controller.OrganizationController    : GET /api/organization/ORG-2380C535/logo
+2026-09-23T16:27:00.779+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Found 'Content-Type:image/png' in response
+2026-09-23T16:27:00.780+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{89504e470d0a1a0a0000000d49484452000001b0000000a60806000000bbb6da1800006a3449444154789ced9d77801c75d (truncated)...]
+2026-09-23T16:27:00.783+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-09-23T16:27:05.643+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-5] o.s.web.servlet.DispatcherServlet        : PUT "/api/organization/ORG-2380C535", parameters={}
+2026-09-23T16:27:05.643+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.siec_acc.controller.OrganizationController#updateOrganization(String, OrganizationRequestDTO)
+2026-09-23T16:27:05.645+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.siec_acc.dto.request.OrganizationRequestDTO@7fa3e6bd]
+2026-09-23T16:27:05.646+05:30  INFO 20508 --- [siec-accounting] [http-nio-9093-exec-5] c.s.controller.OrganizationController    : PUT /api/organization/ORG-2380C535
+2026-09-23T16:27:05.647+05:30  INFO 20508 --- [siec-accounting] [http-nio-9093-exec-5] c.s.s.s.OrganizationServiceImpl          : PUT organization: ORG-2380C535
+2026-09-23T16:27:05.657+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json, application/*+json]
+2026-09-23T16:27:05.658+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.siec_acc.dto.response.OrganizationResponseDTO@3bd1ea5e]
+2026-09-23T16:27:05.659+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-09-23T16:27:05.683+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/api/organization/ORG-2380C535/logo?t=1790161025668", parameters={masked}
+2026-09-23T16:27:05.691+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.siec_acc.controller.OrganizationController#getOrganizationLogo(String)
+2026-09-23T16:27:05.695+05:30  INFO 20508 --- [siec-accounting] [http-nio-9093-exec-6] c.s.controller.OrganizationController    : GET /api/organization/ORG-2380C535/logo
+2026-09-23T16:27:05.709+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Found 'Content-Type:image/png' in response
+2026-09-23T16:27:05.710+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{89504e470d0a1a0a0000000d49484452000001b0000000a60806000000bbb6da1800006a3449444154789ced9d77801c75d (truncated)...]
+2026-09-23T16:27:05.711+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-09-23T16:27:20.836+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/api/organization/ORG-2380C535/logo?t=1790161040830", parameters={masked}
+2026-09-23T16:27:20.838+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.siec_acc.controller.OrganizationController#getOrganizationLogo(String)
+2026-09-23T16:27:20.839+05:30  INFO 20508 --- [siec-accounting] [http-nio-9093-exec-7] c.s.controller.OrganizationController    : GET /api/organization/ORG-2380C535/logo
+2026-09-23T16:27:20.844+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Found 'Content-Type:image/png' in response
+2026-09-23T16:27:20.845+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{89504e470d0a1a0a0000000d49484452000001b0000000a60806000000bbb6da1800006a3449444154789ced9d77801c75d (truncated)...]
+2026-09-23T16:27:20.847+05:30 DEBUG 20508 --- [siec-accounting] [http-nio-9093-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
