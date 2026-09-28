@@ -1465,10 +1465,12 @@
           '<div class="text-[12.5px] text-gray-800 mt-1 break-words">' + renderedValue + '</div>' +
         '</div>';
       }).join('');
-
       var content = '<div class="px-6 py-5 modal-scroll max-h-[70vh] overflow-y-auto">' +
-        '<div class="grid sm:grid-cols-2 gap-3">' + rows + '</div>' +
-      '</div>' + modalFooter('Close', 'onclick="closeModal()"', '');
+       '<div class="grid sm:grid-cols-2 gap-3">' + rows + '</div>' +
+       '</div>' +
+       '<div class="flex justify-end gap-2 px-6 py-4 border-t border-gray-100 bg-gray-50 rounded-b-2xl sticky bottom-0">' +
+       '<button onclick="closeModal()" class="px-4 py-2 rounded-lg text-sm font-semibold text-primary border border-primary hover:bg-primary hover:text-white transition">Close</button>' +
+       '</div>';
 
       openModal(
         modalHeader('Organization Information', org.companyName || org.legalName || 'Organization') + content,
