@@ -2,6 +2,8 @@ package com.siec_acc.entity;
 
 import jakarta.persistence.*;
 import java.time.LocalDateTime;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @Table(name = "organization")
@@ -55,6 +57,15 @@ public class OrganizationEntity {
     @Column(name = "logo_url", length = 255)
     private String logoUrl;
 
+    @Column(name = "bank_name")
+    private String bankName;
+
+    @Column(name = "bank_account_number")
+    private String bankAccountNumber;
+
+    @Column(name = "bank_ifsc_code")
+    private String bankIfscCode;
+
     @Column(name = "gst_registered")
     private Boolean gstRegistered;
 
@@ -90,6 +101,16 @@ public class OrganizationEntity {
 
     @Column(name = "organization_status")
     private String organizationStatus;
+
+    @OneToMany(mappedBy = "organization", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.LAZY)
+    private List<OrganizationDocumentEntity> documents = new ArrayList<>();
+
+    @Lob
+    @Column(name = "documents_blob", columnDefinition = "LONGBLOB")
+    private byte[] legacyDocumentsBlob;
+
+    @Column(name = "documents_url", columnDefinition = "LONGTEXT")
+    private String legacyDocumentsUrl;
 
     @Column(name = "created_at")
     private LocalDateTime createdAt;
@@ -145,6 +166,12 @@ public class OrganizationEntity {
     public void setLogoBlob(byte[] logoBlob) { this.logoBlob = logoBlob; }
     public String getLogoUrl() { return logoUrl; }
     public void setLogoUrl(String logoUrl) { this.logoUrl = logoUrl; }
+    public String getBankName() { return bankName; }
+    public void setBankName(String bankName) { this.bankName = bankName; }
+    public String getBankAccountNumber() { return bankAccountNumber; }
+    public void setBankAccountNumber(String bankAccountNumber) { this.bankAccountNumber = bankAccountNumber; }
+    public String getBankIfscCode() { return bankIfscCode; }
+    public void setBankIfscCode(String bankIfscCode) { this.bankIfscCode = bankIfscCode; }
     public Boolean getGstRegistered() { return gstRegistered; }
     public void setGstRegistered(Boolean gstRegistered) { this.gstRegistered = gstRegistered; }
     public String getGstNumber() { return gstNumber; }
@@ -169,6 +196,12 @@ public class OrganizationEntity {
     public void setTimezone(String timezone) { this.timezone = timezone; }
     public String getOrganizationStatus() { return organizationStatus; }
     public void setOrganizationStatus(String organizationStatus) { this.organizationStatus = organizationStatus; }
+    public List<OrganizationDocumentEntity> getDocuments() { return documents; }
+    public void setDocuments(List<OrganizationDocumentEntity> documents) { this.documents = documents; }
+    public byte[] getLegacyDocumentsBlob() { return legacyDocumentsBlob; }
+    public void setLegacyDocumentsBlob(byte[] legacyDocumentsBlob) { this.legacyDocumentsBlob = legacyDocumentsBlob; }
+    public String getLegacyDocumentsUrl() { return legacyDocumentsUrl; }
+    public void setLegacyDocumentsUrl(String legacyDocumentsUrl) { this.legacyDocumentsUrl = legacyDocumentsUrl; }
     public LocalDateTime getCreatedAt() { return createdAt; }
     public void setCreatedAt(LocalDateTime createdAt) { this.createdAt = createdAt; }
     public LocalDateTime getUpdatedAt() { return updatedAt; }

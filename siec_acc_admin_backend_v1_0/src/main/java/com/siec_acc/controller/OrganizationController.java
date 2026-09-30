@@ -7,9 +7,11 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
 
+import java.util.List;
+import java.util.Map;
 
 @RestController
 @RequestMapping("/api/organization")
@@ -23,29 +25,25 @@ public class OrganizationController {
     }
 
     @PostMapping
-    public ResponseEntity<OrganizationResponseDTO> createOrganization(
-            @RequestBody OrganizationRequestDTO request) {
+    public ResponseEntity<OrganizationResponseDTO> createOrganization(@RequestBody OrganizationRequestDTO request) {
         logger.info("POST /api/organization");
-        return ResponseEntity.status(HttpStatus.CREATED)
-                .body(organizationService.createOrganization(request));
+        return ResponseEntity.status(HttpStatus.CREATED).body(organizationService.createOrganization(request));
     }
 
     @GetMapping
-    public ResponseEntity<java.util.List<OrganizationResponseDTO>> getAllOrganizations() {
+    public ResponseEntity<List<OrganizationResponseDTO>> getAllOrganizations() {
         logger.info("GET /api/organization");
         return ResponseEntity.ok(organizationService.getAllOrganizations());
     }
 
     @GetMapping("/{organizationId}")
-    public ResponseEntity<OrganizationResponseDTO> getOrganization(
-            @PathVariable String organizationId) {
+    public ResponseEntity<OrganizationResponseDTO> getOrganization(@PathVariable String organizationId) {
         logger.info("GET /api/organization/{}", organizationId);
         return ResponseEntity.ok(organizationService.getOrganization(organizationId));
     }
 
     @GetMapping("/{organizationId}/logo")
-    public ResponseEntity<byte[]> getOrganizationLogo(
-            @PathVariable String organizationId) {
+    public ResponseEntity<byte[]> getOrganizationLogo(@PathVariable String organizationId) {
         logger.info("GET /api/organization/{}/logo", organizationId);
         return organizationService.getOrganizationLogo(organizationId);
     }
@@ -55,8 +53,7 @@ public class OrganizationController {
             @PathVariable String organizationId,
             @RequestBody OrganizationRequestDTO request) {
         logger.info("PUT /api/organization/{}", organizationId);
-        return ResponseEntity.ok(
-                organizationService.updateOrganization(organizationId, request));
+        return ResponseEntity.ok(organizationService.updateOrganization(organizationId, request));
     }
 
     @PatchMapping("/{organizationId}")
@@ -64,18 +61,46 @@ public class OrganizationController {
             @PathVariable String organizationId,
             @RequestBody OrganizationRequestDTO request) {
         logger.info("PATCH /api/organization/{}", organizationId);
-        return ResponseEntity.ok(
-                organizationService.patchOrganization(organizationId, request));
+        return ResponseEntity.ok(organizationService.patchOrganization(organizationId, request));
+    }
+
+    @PostMapping(value = "/{organizationId}/documents", consumes = "multipart/form-data")
+    public ResponseEntity<OrganizationResponseDTO> uploadDocument(
+            @PathVariable String organizationId,
+            @RequestParam("documentName") String documentName,
+            @RequestParam("file") MultipartFile file) {
+        logger.info("POST /api/organization/{}/documents", organizationId);
+        return ResponseEntity.status(HttpStatus.CREATED)
+                .body(organizationService.uploadDocument(organizationId, documentName, file));
+    }
+
+    @GetMapping("/{organizationId}/documents")
+    public ResponseEntity<List<Map<String, Object>>> getDocuments(@PathVariable String organizationId) {
+        logger.info("GET /api/organization/{}/documents", organizationId);
+        return ResponseEntity.ok(organizationService.getDocuments(organizationId));
+    }
+
+    @GetMapping("/{organizationId}/documents/{documentId}/content")
+    public ResponseEntity<byte[]> getDocumentContent(
+            @PathVariable String organizationId,
+            @PathVariable String documentId) {
+        logger.info("GET /api/organization/{}/documents/{}/content", organizationId, documentId);
+        return organizationService.getDocumentContent(organizationId, documentId);
+    }
+
+    @DeleteMapping("/{organizationId}/documents/{documentId}")
+    public ResponseEntity<String> deleteDocument(
+            @PathVariable String organizationId,
+            @PathVariable String documentId) {
+        logger.info("DELETE /api/organization/{}/documents/{}", organizationId, documentId);
+        organizationService.deleteDocument(organizationId, documentId);
+        return ResponseEntity.ok("Document deleted successfully");
     }
 
     @DeleteMapping("/{organizationId}")
-    public ResponseEntity<String> deleteOrganization(
-            @PathVariable String organizationId) {
-
+    public ResponseEntity<String> deleteOrganization(@PathVariable String organizationId) {
         logger.info("DELETE /api/organization/{}", organizationId);
-
         organizationService.deleteOrganization(organizationId);
-
         return ResponseEntity.ok("Organization deleted successfully");
     }
 }

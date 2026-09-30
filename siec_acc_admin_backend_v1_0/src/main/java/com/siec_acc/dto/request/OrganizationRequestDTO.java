@@ -14,6 +14,9 @@ public class OrganizationRequestDTO {
     private String email;
     private String website;
     private String logoUrl;
+    private String bankName;
+    private String bankAccountNumber;
+    private String bankIfscCode;
     private Boolean gstRegistered;
     private String gstNumber;
     private String taxRegistrationType;
@@ -54,6 +57,12 @@ public class OrganizationRequestDTO {
     public void setWebsite(String website) { this.website = website; }
     public String getLogoUrl() { return logoUrl; }
     public void setLogoUrl(String logoUrl) { this.logoUrl = logoUrl; }
+    public String getBankName() { return bankName; }
+    public void setBankName(String bankName) { this.bankName = bankName; }
+    public String getBankAccountNumber() { return bankAccountNumber; }
+    public void setBankAccountNumber(String bankAccountNumber) { this.bankAccountNumber = bankAccountNumber; }
+    public String getBankIfscCode() { return bankIfscCode; }
+    public void setBankIfscCode(String bankIfscCode) { this.bankIfscCode = bankIfscCode; }
     public Boolean getGstRegistered() { return gstRegistered; }
     public void setGstRegistered(Boolean gstRegistered) { this.gstRegistered = gstRegistered; }
     public String getGstNumber() { return gstNumber; }

@@ -1,6 +1,8 @@
 package com.siec_acc.dto.response;
 
 import java.time.LocalDateTime;
+import java.util.List;
+import java.util.Map;
 
 public class OrganizationResponseDTO {
 
@@ -17,6 +19,9 @@ public class OrganizationResponseDTO {
     private String email;
     private String website;
     private String logoUrl;
+    private String bankName;
+    private String bankAccountNumber;
+    private String bankIfscCode;
     private Boolean gstRegistered;
     private String gstNumber;
     private String taxRegistrationType;
@@ -29,6 +34,8 @@ public class OrganizationResponseDTO {
     private String financialYearStart;
     private String timezone;
     private String organizationStatus;
+    private List<Map<String, Object>> documents;
+    private String documentsUrl;
     private LocalDateTime createdAt;
     private LocalDateTime updatedAt;
 
@@ -61,6 +68,12 @@ public class OrganizationResponseDTO {
     public void setWebsite(String website) { this.website = website; }
     public String getLogoUrl() { return logoUrl; }
     public void setLogoUrl(String logoUrl) { this.logoUrl = logoUrl; }
+    public String getBankName() { return bankName; }
+    public void setBankName(String bankName) { this.bankName = bankName; }
+    public String getBankAccountNumber() { return bankAccountNumber; }
+    public void setBankAccountNumber(String bankAccountNumber) { this.bankAccountNumber = bankAccountNumber; }
+    public String getBankIfscCode() { return bankIfscCode; }
+    public void setBankIfscCode(String bankIfscCode) { this.bankIfscCode = bankIfscCode; }
     public Boolean getGstRegistered() { return gstRegistered; }
     public void setGstRegistered(Boolean gstRegistered) { this.gstRegistered = gstRegistered; }
     public String getGstNumber() { return gstNumber; }
@@ -85,6 +98,10 @@ public class OrganizationResponseDTO {
     public void setTimezone(String timezone) { this.timezone = timezone; }
     public String getOrganizationStatus() { return organizationStatus; }
     public void setOrganizationStatus(String organizationStatus) { this.organizationStatus = organizationStatus; }
+    public List<Map<String, Object>> getDocuments() { return documents; }
+    public void setDocuments(List<Map<String, Object>> documents) { this.documents = documents; }
+    public String getDocumentsUrl() { return documentsUrl; }
+    public void setDocumentsUrl(String documentsUrl) { this.documentsUrl = documentsUrl; }
     public LocalDateTime getCreatedAt() { return createdAt; }
     public void setCreatedAt(LocalDateTime createdAt) { this.createdAt = createdAt; }
     public LocalDateTime getUpdatedAt() { return updatedAt; }
